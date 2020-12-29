@@ -5,6 +5,6 @@ def find_max_value(array)
     if array[count] == array_sorted[array_sorted.length - 1]
       return count 
     end
-    counter += 1 
+    count += 1 
   end 
 end
